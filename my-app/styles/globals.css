@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+    --example: #f58912;
+    --example-2: #555555;
+}
